@@ -15,13 +15,16 @@ Kidney tumor is a significant health concern worldwide, and early detection play
 
 ## Dataset Description
 The dataset used in this project was obtained from Kaggle, a platform for data science competitions and datasets.
-The dataset was collected from PACS (Picture Archiving and Communication System) from different hospitals in Dhaka, Bangladesh where patients were already diagnosed with having a kidney tumor, cyst, normal or stone findings. Both the Coronal and Axial cuts were selected from both contrast and non-contrast studies with protocol for the whole abdomen and urogram.
+The dataset was collected from PACS (Picture Archiving and Communication System) from different hospitals in Dhaka, Bangladesh, where patients were already diagnosed with having a kidney tumor, cyst, normal or stone findings.
 
 1. Kidney-Tumours: 2283 Images
 
-2. Normal: 5077 Image
+2. Normal: 5077 Images
 
    [Link to the dataset](https://www.kaggle.com/code/osinachichibuor/kidney-diseases-0-999) 
+### Examples
+
+
 
 ## Dependencies
 + TensorFlow
