@@ -4,9 +4,9 @@
 This project aims to develop a convolutional Neural Network (CNN) model for detecting kidney tumors in Computed Tomography (CT) images. The model utilizes deep learning techniques to analyze medical images and identify potential abnormalities indicative of kidney tumors.
 
 ## Table of Contents
-[Introduction](https://github.com/KLE-tech-students/Kidney-Tumor-Detection-using-CT-Images-through-CNN?tab=readme-ov-file#introduction)
-[Dataset Description](https://github.com/KLE-tech-students/Kidney-Tumor-Detection-using-CT-Images-through-CNN?tab=readme-ov-file#dependencies)
-[OpenAI's Website](https://openai.com)
++[Introduction](https://github.com/KLE-tech-students/Kidney-Tumor-Detection-using-CT-Images-through-CNN?tab=readme-ov-file#introduction)
++[Dataset Description](https://github.com/KLE-tech-students/Kidney-Tumor-Detection-using-CT-Images-through-CNN?tab=readme-ov-file#dependencies)
++[Dependencies](https://github.com/KLE-tech-students/Kidney-Tumor-Detection-using-CT-Images-through-CNN?tab=readme-ov-file#dependencies)
 
 
 
