@@ -29,3 +29,16 @@ The dataset was collected from PACS (Picture Archiving and Communication System)
 + Pandas
 + Keras
 + OpenCv
+
+## Implementation Steps
+To replicate and build upon this project, follow these implementation steps:
+1. **Data Loading**:
+   - Download the dataset from the provided link.
+   - Load the dataset into project environment.
+2. **Data Preprocessing**:
+   - Preprocess the images, including resizing, normalization, and augmentation.
+3. **Model Development**:
+   - Design and implement the CNN architecture.
+   - Train the model using the preprocessed dataset.
+4. **Model Evaluation**:
+   - Evaluate the trained model's performance using metrics such as accuracy, precision, recall, and F1-score.
