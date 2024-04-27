@@ -17,9 +17,9 @@ Kidney tumor is a significant health concern worldwide, and early detection play
 
 ## Dataset Description
 The dataset used in this project was obtained from Kaggle, a platform for data science competitions and datasets.
-The dataset was collected from PACS (Picture Archiving and Communication System) from different hospitals in Dhaka, Bangladesh, where patients were already diagnosed with having a kidney tumor, cyst, normal or stone findings.
-
-1. Kidney-Tumours: 2283 Images
+The dataset was collected from PACS (Picture Archiving and Communication System) from different hospitals in Dhaka, Bangladesh, where patients were already diagnosed with having a kidney tumor, cyst, normal or stone findings. Since this project is mainly focusing on the detection of kidney tumors we are going to consider only the kidney tumor and normal classes of the dataset. The dataset is of 764 MB in size and the images present in it were of '.jpg' format.
+The dataset consists two classes of images.
+1. Kidney-Tumors:2283 Images
 
 2. Normal: 5077 Images
 
