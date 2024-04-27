@@ -21,7 +21,7 @@ The dataset was collected from PACS (Picture Archiving and Communication System)
 
 2. Normal: 5077 Image
 
-   [Link to the dataset](https://www.kaggle.com/code/osinachichibuor/kidney-diseases-0-999) 
+   [Link to the dataset](https://www.kaggle.com/datasets/nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone)
 
 ## Dependencies
 + TensorFlow
