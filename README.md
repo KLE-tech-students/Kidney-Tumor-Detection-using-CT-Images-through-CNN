@@ -26,7 +26,13 @@ The dataset was collected from PACS (Picture Archiving and Communication System)
    [Link to the dataset](https://www.kaggle.com/datasets/nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone)
 
 **Sample images**
-</br><img src="/Images/Picture1.png" alt="Logo" width="500"/>
+</br></br>
+Kidney Normal images
+</br><img src="/Images/Picture1.png" alt="Logo" width="300"/>
+</br></br>
+Kidney Tumor images
+</br><img src="/Images/Picture2.png" alt="Logo" width="300"/>
+
 
 
 
