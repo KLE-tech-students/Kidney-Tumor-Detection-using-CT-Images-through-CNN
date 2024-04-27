@@ -7,6 +7,8 @@ This project aims to develop a convolutional Neural Network (CNN) model for dete
 + [Introduction](https://github.com/KLE-tech-students/Kidney-Tumor-Detection-using-CT-Images-through-CNN?tab=readme-ov-file#introduction)
 + [Dataset Description](https://github.com/KLE-tech-students/Kidney-Tumor-Detection-using-CT-Images-through-CNN?tab=readme-ov-file#dependencies)
 + [Dependencies](https://github.com/KLE-tech-students/Kidney-Tumor-Detection-using-CT-Images-through-CNN?tab=readme-ov-file#dependencies)
++ [Implementation Steps](https://github.com/KLE-tech-students/Kidney-Tumor-Detection-using-CT-Images-through-CNN?tab=readme-ov-file#implementation-steps)
+
 
 
 
@@ -21,10 +23,7 @@ The dataset was collected from PACS (Picture Archiving and Communication System)
 
 2. Normal: 5077 Images
 
-   [Link to the dataset](https://www.kaggle.com/code/osinachichibuor/kidney-diseases-0-999) 
-### Examples
-
-
+   [Link to the dataset](https://www.kaggle.com/datasets/nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone)
 
 ## Dependencies
 + TensorFlow
@@ -32,3 +31,16 @@ The dataset was collected from PACS (Picture Archiving and Communication System)
 + Pandas
 + Keras
 + OpenCv
+
+## Implementation Steps
+To replicate and build upon this project, follow these implementation steps:
+1. **Data Loading**:
+   - Download the dataset from the provided link.
+   - Load the dataset into project environment.
+2. **Data Preprocessing**:
+   - Preprocess the images, including resizing, normalization, and augmentation.
+3. **Model Development**:
+   - Design and implement the CNN architecture.
+   - Train the model using the preprocessed dataset.
+4. **Model Evaluation**:
+   - Evaluate the trained model's performance using metrics such as accuracy, precision, recall, and F1-score.
