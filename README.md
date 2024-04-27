@@ -27,6 +27,8 @@ The dataset was collected from PACS (Picture Archiving and Communication System)
 
 **Sample images**
 ![Normal images](/Images/Picture1.png)
+<img src="images/logo.png" alt="Logo" width="200"/>
+
 
 
 ## Dependencies
