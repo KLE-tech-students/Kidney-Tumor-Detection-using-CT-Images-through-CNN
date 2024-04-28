@@ -47,6 +47,7 @@ To replicate and build upon this project, follow these implementation steps:
    - Evaluate the trained model's performance using metrics such as accuracy, precision, recall, and F1-score.
 
 ## Model
+We have developed two distinct models for detecting kidney tumors: Convolutional Neural Network (CNN) and ResNet (Residual Neural Network). These models leverage state-of-the-art deep learning techniques to analyze CT images and identify potential tumor regions.
 ### Convolutional Neural Network(CNN)
 The dataset is trained with CNN architecture which consists of several convolutional layers followed by max-pooling layers. The final layers include fully connected (dense) layers with dropout regularization to prevent overfitting. \
 ![Screenshot 2024-04-28 120343](https://github.com/KLE-tech-students/Kidney-Tumor-Detection-using-CT-Images-through-CNN/assets/105357853/661f5edf-9de7-4a39-aeb1-ff817698dedd)
