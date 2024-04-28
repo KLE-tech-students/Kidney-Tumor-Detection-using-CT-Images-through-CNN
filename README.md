@@ -90,6 +90,7 @@ Dropout Layer: Regularization with dropout rate of 0.5. \
 Dense Layers: \
 Layer 1 (Dense): 128 neurons with ReLU activation. \
 Output Layer (Dense): 2 neurons with softmax activation for binary classification. 
+![alt text](C:\Users\Khush\OneDrive\Documents\Pictures\Screenshots\Screenshot 2024-04-28 120343.png)
 
 ###  Residual Neural Network (ResNet50)
 Input (512x512x2)  \
