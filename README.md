@@ -41,6 +41,7 @@ Kidney Tumor images
 + NumPy
 + Pandas
 + Keras
++ Scikit-learn
 + OpenCv
 
 ## Implementation Steps
@@ -55,3 +56,9 @@ To replicate and build upon this project, follow these implementation steps:
    - Train the model using the preprocessed dataset.
 4. **Model Evaluation**:
    - Evaluate the trained model's performance using metrics such as accuracy, precision, recall, and F1-score.
+
+## Model
+# Convolutional Neural Network(CNN)
+The dataset is trained with CNN architecture which consists of several convolutional layers followed by max-pooling layers. The final layers include fully connected (dense) layers with dropout regularization to prevent overfitting. \
+Convolutional Layers: \
+Layer 1 (Conv2D): \
