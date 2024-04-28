@@ -62,3 +62,13 @@ To replicate and build upon this project, follow these implementation steps:
 The dataset is trained with CNN architecture which consists of several convolutional layers followed by max-pooling layers. The final layers include fully connected (dense) layers with dropout regularization to prevent overfitting. \
 Convolutional Layers: \
 Layer 1 (Conv2D): \
+Filters: 32 \
+Filter Size: 3x3 \
+<br>
+Layer 2 (Conv2D): \
+Filters: 64 \
+Filter Size: 3x3 \
+<br>
+Layer 3 (Conv2D): \
+Filters: 64 \
+
