@@ -60,6 +60,8 @@ To replicate and build upon this project, follow these implementation steps:
 ## Model
 ### Convolutional Neural Network(CNN)
 The dataset is trained with CNN architecture which consists of several convolutional layers followed by max-pooling layers. The final layers include fully connected (dense) layers with dropout regularization to prevent overfitting. \
+![Screenshot 2024-04-28 120343](https://github.com/KLE-tech-students/Kidney-Tumor-Detection-using-CT-Images-through-CNN/assets/105357853/661f5edf-9de7-4a39-aeb1-ff817698dedd)
+
 Convolutional Layers: \
 Layer 1 (Conv2D): \
 Filters: 32 \
@@ -90,7 +92,7 @@ Dropout Layer: Regularization with dropout rate of 0.5. \
 Dense Layers: \
 Layer 1 (Dense): 128 neurons with ReLU activation. \
 Output Layer (Dense): 2 neurons with softmax activation for binary classification. 
-![alt text](C:\Users\Khush\OneDrive\Documents\Pictures\Screenshots\Screenshot 2024-04-28 120343.png)
+
 
 ###  Residual Neural Network (ResNet50)
 Input (512x512x2)  \
@@ -105,6 +107,17 @@ Input (512x512x2)  \
        | \
       Dense (2, softmax)  
        |   
-    Output   
+    Output   \
+    <br>
+ResNet50: This is the pre-trained ResNet50 model with weights frozen. \
+GlobalAveragePooling2D: Averages the spatial dimensions of the ResNet50 output to create a fixed-length vector. \
+Dropout: Helps in reducing overfitting by randomly dropping a fraction of the neurons during training. \
+Dense (128, relu): Fully connected layer with 128 units and ReLU activation function. \
+Dense (2, softmax): Final fully connected layer with 2 units (one for each class) and softmax activation function for classification. \
+Output: Represents the final output with 2 classes (normal or tumor).
+
+
+
+
 
 
