@@ -58,7 +58,7 @@ To replicate and build upon this project, follow these implementation steps:
    - Evaluate the trained model's performance using metrics such as accuracy, precision, recall, and F1-score.
 
 ## Model
-# Convolutional Neural Network(CNN)
+### Convolutional Neural Network(CNN)
 The dataset is trained with CNN architecture which consists of several convolutional layers followed by max-pooling layers. The final layers include fully connected (dense) layers with dropout regularization to prevent overfitting. \
 Convolutional Layers: \
 Layer 1 (Conv2D): \
@@ -71,4 +71,23 @@ Filter Size: 3x3 \
 <br>
 Layer 3 (Conv2D): \
 Filters: 64 \
+Filter Size: 3x3 \
+<br>
+Layer 4 (Conv2D): \
+Filters: 64 \
+Filter Size: 3x3 \
+<br>
+Layer 5 (Conv2D): \
+Filters: 128 \
+Filter Size: 3x3 \
+<br>
+MaxPooling Layers: \
+Pool Size: 2x2 applied after each Conv2D layer. \
+<br>
+Additional Layers: \
+Flatten Layer: Converts the 2D feature maps into a 1D vector. \
+Dropout Layer: Regularization with dropout rate of 0.5. \
+Dense Layers: \
+Layer 1 (Dense): 128 neurons with ReLU activation. \
+Output Layer (Dense): 2 neurons with softmax activation for binary classification. \
 
