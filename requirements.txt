@@ -1,6 +1,6 @@
-+ TensorFlow
-+ NumPy
-+ Pandas
-+ Keras
-+ Scikit-learn
-+ OpenCv
+TensorFlow
+NumPy
+Pandas
+Keras
+Scikit-learn
+OpenCv
