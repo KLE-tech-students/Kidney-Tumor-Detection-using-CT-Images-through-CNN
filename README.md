@@ -13,7 +13,7 @@ This project aims to develop a convolutional Neural Network (CNN) model for dete
 
 
 ## Introduction
-Kidney tumor is a significant health concern worldwide, and early detection plays a crucial role in improving patient outcomes. Medical imaging techniques, such as computed tomography (CT) is commonly used for the diagnosis and monitoring of kidney tumors. However, manual interpretation of these images by healthcare professionals is time-consuming and subject to human error. CNNs have demonstrated remarkable success in image recognition tasks, making them well-suited for medical image analysis. The goal of this project is to develop a CNN-based model capable of automatically identifying kidney tumors in medical images, thereby aiding healthcare professionals in diagnosis.
+Kidney tumor is a significant health concern worldwide, and early detection plays a crucial role in improving patient outcomes. Medical imaging techniques, such as Computed Tomography (CT) is commonly used for the diagnosis and monitoring of kidney tumors. However, manual interpretation of these images by healthcare professionals is time-consuming and subject to human error. CNNs have demonstrated remarkable success in image recognition tasks, making them well-suited for medical image analysis. The goal of this project is to develop a CNN-based model capable of automatically identifying kidney tumors in medical images, thereby aiding healthcare professionals in diagnosis.
 
 ## Dataset Description
 The dataset used in this project was obtained from Kaggle, a platform for data science competitions and datasets.
@@ -32,17 +32,6 @@ Kidney Normal images
 </br></br>
 Kidney Tumor images
 </br><img src="/Images/Picture2.png" alt="Logo" width="400"/>
-
-
-
-
-## Dependencies
-+ TensorFlow
-+ NumPy
-+ Pandas
-+ Keras
-+ Scikit-learn
-+ OpenCv
 
 ## Implementation Steps
 To replicate and build upon this project, follow these implementation steps:
