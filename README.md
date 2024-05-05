@@ -107,6 +107,14 @@ Dense Layer(2, softmax): Final fully connected layer with 2 units (one for each 
 Output: Represents the final output with 2 classes (normal or tumor).
 
 
+### Flowchart
+
+```mermaid
+graph TD;
+    A[Start] --> B[Process 1];
+    B --> C[Process 2];
+    C --> D[Process 3];
+    D --> E[End];
 
 
 
