@@ -99,10 +99,7 @@ Input (512x512x2)  \
        |   
     Output   \
     <br>
-    ### Residual Neural Network (ResNet50)
-
-Input (512x512x2) --> ResNet50 --> GlobalAveragePooling2D --> Dropout --> Dense (128, relu) --> Dense (2, softmax) --> Output
-
+    
 ResNet50: This is the pre-trained ResNet50 model with weights frozen. \
 GlobalAveragePooling2D: Averages the spatial dimensions of the ResNet50 output to create a fixed-length vector. \
 Dropout Layer: Helps in reducing overfitting by randomly dropping a fraction of the neurons during training. \
