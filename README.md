@@ -101,9 +101,9 @@ Input (512x512x2)  \
     <br>
 ResNet50: This is the pre-trained ResNet50 model with weights frozen. \
 GlobalAveragePooling2D: Averages the spatial dimensions of the ResNet50 output to create a fixed-length vector. \
-Dropout: Helps in reducing overfitting by randomly dropping a fraction of the neurons during training. \
-Dense (128, relu): Fully connected layer with 128 units and ReLU activation function. \
-Dense (2, softmax): Final fully connected layer with 2 units (one for each class) and softmax activation function for classification. \
+Dropout Layer: Helps in reducing overfitting by randomly dropping a fraction of the neurons during training. \
+Dense Layer(128, relu): Fully connected layer with 128 units and ReLU activation function. \
+Dense Layer(2, softmax): Final fully connected layer with 2 units (one for each class) and softmax activation function for classification. \
 Output: Represents the final output with 2 classes (normal or tumor).
 
 
