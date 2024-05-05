@@ -28,10 +28,10 @@ The dataset was collected from PACS (Picture Archiving and Communication System)
 **Sample images**
 </br></br>
 Kidney Normal images
-</br><img src="/Images/Picture1.png" alt="Logo" width="400"/>
+</br><img src="/Images/Kidney_normal.png" alt="Logo" width="400"/>
 </br></br>
 Kidney Tumor images
-</br><img src="/Images/Picture2.png" alt="Logo" width="400"/>
+</br><img src="/Images/Kidney_tumor.png" alt="Logo" width="400"/>
 
 ## Implementation Steps
 To replicate and build upon this project, follow these implementation steps:
