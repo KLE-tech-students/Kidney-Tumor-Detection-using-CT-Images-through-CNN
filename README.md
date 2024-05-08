@@ -109,6 +109,13 @@ Output: Represents the final output with 2 classes (normal or tumor).
 
 
 
-
-
+## Model Evaluation
+### Convolutional Neural Network
++ Test Accuracy: The CNN model achieves a test accuracy of 94.3%. \
+Confusion Matrix: \
+True Positives (TP): 148 tumor images are correctly predicted as tumor. \
+True Negatives (TN): 156 normal images are correctly predicted as normal. \
+False Positives (FP): 15 normal images are misclassified as tumor. \
+False Negatives (FN): 1 tumor image is misclassified as normal. \
++ Binary Cross Entropy Loss Function: The loss decreases with increasing epochs, indicating minimal loss over the training period.
 
