@@ -116,6 +116,11 @@ Confusion Matrix: \
 True Positives (TP): 148 tumor images are correctly predicted as tumor. \
 True Negatives (TN): 156 normal images are correctly predicted as normal. \
 False Positives (FP): 15 normal images are misclassified as tumor. \
-False Negatives (FN): 1 tumor image is misclassified as normal. \
+False Negatives (FN): 1 tumor image is misclassified as normal. 
 + Binary Cross Entropy Loss Function: The loss decreases with increasing epochs, indicating minimal loss over the training period.
-
++ Precision: The precision of the model was 90%, demonstrating the proportion of correctly predicted positive cases out of all predicted positive cases.
++ Recall: The recall, also known as sensitivity, was 99%, indicating the proportion of true positive cases correctly identified by the model out of all actual 
+  positive cases.
++ F-measure: The F-measure, which combines precision and recall into a single metric, was 1, indicating a perfect balance between precision and recall.
++ Sensitivity: The sensitivity of the model was 0.99, indicating its ability to correctly identify true positive cases.
++ Specificity: The specificity of the model was 0.90, indicating its ability to correctly identify true negative cases.
