@@ -132,4 +132,5 @@ False Negatives (FN): 1 tumor image is misclassified as normal.
 + The F-measure, a combined metric of precision and recall, yielded a score of 1, signifying a perfect balance between precision and recall.
 + Sensitivity, which measures the proportion of true positives correctly identified by the model, achieved a score of 1, indicating the model's ability to 
   identify all actual positives.
-
++ Specificity, representing the proportion of true negatives correctly identified by the model, reached a score of 0.95, indicating a high level of accuracy in 
+  identifying negative cases. 
