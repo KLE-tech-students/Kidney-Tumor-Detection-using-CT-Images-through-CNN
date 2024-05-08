@@ -130,5 +130,6 @@ False Negatives (FN): 1 tumor image is misclassified as normal.
 + With a precision of 94%, the model accurately identified tumors in 94% of its predictions, minimizing false positives.
 + Its recall rate of 99% indicates that the model effectively captured 99% of actual tumor cases, reducing the likelihood of missing positive cases.
 + The F-measure, a combined metric of precision and recall, yielded a score of 1, signifying a perfect balance between precision and recall.
-
++ Sensitivity, which measures the proportion of true positives correctly identified by the model, achieved a score of 1, indicating the model's ability to 
+  identify all actual positives.
 
