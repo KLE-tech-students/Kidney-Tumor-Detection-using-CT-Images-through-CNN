@@ -84,7 +84,7 @@ Layer 1 (Dense): 128 neurons with ReLU activation. \
 Output Layer (Dense): 2 neurons with softmax activation for binary classification. 
 
 
-###  Residual Neural Network (ResNet50)
+###  Residual Network (ResNet50)
 Input (512x512x2)  \
        |  \
     ResNet50 \
@@ -124,3 +124,5 @@ False Negatives (FN): 1 tumor image is misclassified as normal.
 + F-measure: The F-measure, which combines precision and recall into a single metric, was 1, indicating a perfect balance between precision and recall.
 + Sensitivity: The sensitivity of the model was 0.99, indicating its ability to correctly identify true positive cases.
 + Specificity: The specificity of the model was 0.90, indicating its ability to correctly identify true negative cases.
+
+### Residual Network
