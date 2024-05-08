@@ -109,7 +109,7 @@ Output: Represents the final output with 2 classes (normal or tumor).
 
 
 
-## Model Evaluation
+## Model Evaluation Parameters and Results
 ### Convolutional Neural Network
 + Test Accuracy: The CNN model achieves a test accuracy of 94.3%. \
 Confusion Matrix: \
