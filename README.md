@@ -126,3 +126,9 @@ False Negatives (FN): 1 tumor image is misclassified as normal.
 + Specificity: The specificity of the model was 0.90, indicating its ability to correctly identify true negative cases.
 
 ### Residual Network
++ It demonstrated a test accuracy of 96.5%, indicating a high level of overall correctness in its predictions.
++ With a precision of 94%, the model accurately identified tumors in 94% of its predictions, minimizing false positives.
++ Its recall rate of 99% indicates that the model effectively captured 99% of actual tumor cases, reducing the likelihood of missing positive cases.
++ The F-measure, a combined metric of precision and recall, yielded a score of 1, signifying a perfect balance between precision and recall.
+
+
