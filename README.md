@@ -46,7 +46,7 @@ To replicate and build upon this project, follow these implementation steps:
 4. **Model Evaluation**:
    - Evaluate the trained model's performance using metrics such as accuracy, precision, recall, and F1-score.
 
-## Model
+## Model Architecture 
 We have developed two distinct models for detecting kidney tumors: Convolutional Neural Network (CNN) and ResNet (Residual Neural Network). These models leverage state-of-the-art deep learning techniques to analyze CT images and identify potential tumor regions.
 ### Convolutional Neural Network(CNN)
 The dataset is trained with CNN architecture which consists of several convolutional layers followed by max-pooling layers. The final layers include fully connected (dense) layers with dropout regularization to prevent overfitting. \
